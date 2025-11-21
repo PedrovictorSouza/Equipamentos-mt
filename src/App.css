@@ -1,0 +1,116 @@
+.app {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #213547;
+}
+
+.busca-container {
+  margin-bottom: 2rem;
+}
+
+.campo-busca {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.campo-busca:focus {
+  outline: none;
+  border-color: #646cff;
+}
+
+.resultados {
+  min-height: 200px;
+}
+
+.sem-resultados {
+  text-align: center;
+  color: #888;
+  font-size: 1.1rem;
+  padding: 2rem;
+}
+
+.lista-equipamentos {
+  display: grid;
+  gap: 1rem;
+}
+
+.equipamento-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s;
+}
+
+.equipamento-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.equipamento-id {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #646cff;
+  margin-bottom: 0.5rem;
+}
+
+.equipamento-nome {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #213547;
+  margin-bottom: 0.75rem;
+}
+
+.equipamento-especificacao {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.equipamento-quantidade {
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 0.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  h1 {
+    color: rgba(255, 255, 255, 0.87);
+  }
+
+  .campo-busca {
+    background-color: #1a1a1a;
+    color: rgba(255, 255, 255, 0.87);
+    border-color: #444;
+  }
+
+  .campo-busca:focus {
+    border-color: #646cff;
+  }
+
+  .equipamento-card {
+    background: #1a1a1a;
+    border-color: #444;
+  }
+
+  .equipamento-nome {
+    color: rgba(255, 255, 255, 0.87);
+  }
+
+  .equipamento-especificacao {
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
