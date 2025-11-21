@@ -165,8 +165,8 @@ const equipamentos = [
   },
   {
     "id": 24,
-    "nome": "Extensão elétrica 2 pinos",
-    "especificacao": "Cabo de extensão elétrica preto, plugue de 2 pinos padrão brasileiro em uma ponta e tomada fêmea de 2 pinos na outra",
+    "nome": "Cabo de alimentação 2 pinos para conector DC",
+    "especificacao": "Cabo de alimentação preto com plugue de 2 pinos padrão brasileiro em uma ponta e conector cilíndrico fêmea (DC) na outra ponta",
     "quantidade": 1,
     "local": null
   },
@@ -174,6 +174,90 @@ const equipamentos = [
     "id": 25,
     "nome": "Cabo de força tipo PC tripolar",
     "especificacao": "Cabo de força preto com plugue tripolar padrão brasileiro NBR 14136 e conector IEC C13 (tipo PC)",
+    "quantidade": 1,
+    "local": null
+  },
+  {
+    "id": 26,
+    "nome": "Cabo de alimentação para luz LED",
+    "especificacao": "Cabo de alimentação 12V para luz/painel LED, com plugue para acendedor de cigarro automotivo em uma ponta e conector circular metálico na outra",
+    "quantidade": 1,
+    "local": null
+  },
+  {
+    "id": 27,
+    "nome": "Microfone shotgun Azden",
+    "especificacao": "Microfone shotgun Azden com espuma antirruído (windscreen) e suporte de fixação",
+    "quantidade": 1,
+    "local": null
+  },
+  {
+    "id": 28,
+    "nome": "Teclado Microsoft com fio",
+    "especificacao": "Teclado Microsoft padrão ABNT2 com teclado numérico, conexão USB, cor preta",
+    "quantidade": 1,
+    "local": null
+  },
+  {
+    "id": 29,
+    "nome": "Mouse Microsoft com fio",
+    "especificacao": "Mouse óptico Microsoft com fio, conexão USB, cor preta, adesivo verde de identificação",
+    "quantidade": 1,
+    "local": null
+  },
+  {
+    "id": 30,
+    "nome": "Apple Magic Mouse",
+    "especificacao": "Apple Magic Mouse sem fio, superfície multitoque, cor branca",
+    "quantidade": 1,
+    "local": null
+  },
+  {
+    "id": 31,
+    "nome": "Gravador de áudio Zoom H4n",
+    "especificacao": "Gravador portátil Zoom H4n Handy Recorder, corpo prateado/preto, com cápsulas estéreo XY integradas e estojo plástico",
+    "quantidade": 1,
+    "local": null
+  },
+  {
+    "id": 32,
+    "nome": "Cabo USB A para mini USB preto",
+    "especificacao": "Cabo USB tipo A macho para mini USB (Mini-B) macho, cor preta, com abraçadeira de velcro",
+    "quantidade": 1,
+    "local": null
+  },
+  {
+    "id": 33,
+    "nome": "Microfone de lapela com cabo longo",
+    "especificacao": "Microfone de lapela (lavalier) com cápsula com espuma, presilha de fixação, conector P2 3,5 mm TRRS e cabo longo com abraçadeira de velcro",
+    "quantidade": 1,
+    "local": null
+  },
+  {
+    "id": 34,
+    "nome": "Kit de cabos P2 de áudio",
+    "especificacao": "Conjunto de cabos de áudio P2 3,5 mm com conectores macho e fêmea, incluindo plugs retos e em L, alguns com corpo verde, preso com abraçadeira de velcro",
+    "quantidade": 1,
+    "local": null
+  },
+  {
+    "id": 35,
+    "nome": "Cabo USB para conector DC",
+    "especificacao": "Cabo de alimentação com conector USB-A macho em uma ponta e plugue cilíndrico DC na outra, cor preta, com abraçadeira de velcro",
+    "quantidade": 1,
+    "local": null
+  },
+  {
+    "id": 36,
+    "nome": "Cabo preto USB A para USB-C",
+    "especificacao": "Cabo de dados/alimentação USB tipo A macho para USB tipo C macho, cor preta",
+    "quantidade": 1,
+    "local": null
+  },
+  {
+    "id": 37,
+    "nome": "Cabo extensor P2 fêmea",
+    "especificacao": "Cabo extensor de áudio P2 3,5 mm, conector macho em uma ponta e conector fêmea na outra, cor preta, com abraçadeira de velcro",
     "quantidade": 1,
     "local": null
   }
